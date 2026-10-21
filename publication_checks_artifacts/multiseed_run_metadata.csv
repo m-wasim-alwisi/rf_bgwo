@@ -1,6 +1,6 @@
 seed,bgwo_selected_features,total_features,bgwo_best_fitness,top13_features,elapsed_seconds
-42,249,512,0.005172559600515423,"['from', 'select', 'and', 'all select', 'all', '1 and', '1 select', '5', 'union', 'where', '1 or', 'when', 'case when']",85.98366779999924
-43,250,512,0.006119925902061801,"['select', 'where', 'and', 'as', 's from', 'delete', '1 where', 'select null', 'select sleep', 'not', 'count', 'by', 'set']",78.57941790000768
-44,253,512,0.006797076353092757,"['1', 'from', 'select', 'all select', 'all', 'update', 'insert into', 'else', 'select sleep', '1 or', 'end', 'when', 'elt']",70.03800900001079
-45,241,512,0.005325587951030956,"['select', 'select from', 'and', 'or', 'all', 'union', 'where', '5', '1 select', 'else', '1 where', 'then', '1 as']",70.72871209998266
-46,251,512,0.006758013853092757,"['from', 'select', 'union', 'or', '5', 'where', 'into', '1 select', 'update', '1 or', '1 as', 'else', '0']",70.96823219998623
+42,249,512,0.005172559600515423,"['from', 'select', 'and', 'all select', 'all', '1 and', '1 select', '5', 'union', 'where', '1 or', 'when', 'case when']",75.67627170000924
+43,250,512,0.006119925902061801,"['select', 'where', 'and', 'as', 's from', 'delete', '1 where', 'select null', 'select sleep', 'not', 'count', 'by', 'set']",85.59182679996593
+44,253,512,0.006797076353092757,"['1', 'from', 'select', 'all select', 'all', 'update', 'insert into', 'else', 'select sleep', '1 or', 'end', 'when', 'elt']",87.38410530000692
+45,241,512,0.005325587951030956,"['select', 'select from', 'and', 'or', 'all', 'union', 'where', '5', '1 select', 'else', '1 where', 'then', '1 as']",86.42035269999178
+46,251,512,0.006758013853092757,"['from', 'select', 'union', 'or', '5', 'where', 'into', '1 select', 'update', '1 or', '1 as', 'else', '0']",91.0241697000456

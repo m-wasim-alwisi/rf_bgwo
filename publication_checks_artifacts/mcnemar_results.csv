@@ -1,0 +1,2 @@
+comparison,baseline_correct_bgwo_wrong_b,baseline_wrong_bgwo_correct_c,discordant_pairs_b_plus_c,mcnemar_statistic_continuity,p_value_chi2_continuity,p_value_exact_binomial
+Baseline RF vs RF + BGWO,6,0,6,4.166666666666667,0.041226833337163815,0.03125

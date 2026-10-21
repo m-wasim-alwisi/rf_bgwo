@@ -1,12 +1,16 @@
 item,status,evidence
 Clean-kernel execution and saved outputs,Done,Notebook executed end-to-end with nbconvert; all code cells completed without errors.
 Label mapping and class counts before/after cleaning,Done,"Raw rows=22916; final rows=22859; 0=Benign, 1=SQL injection; counts saved in dataset_audit.json."
-Duplicate/template leakage investigation,Done,Exact duplicate queries remaining=0; random-split test template overlap=28.13%; group-aware results saved in group_split_metrics.csv.
+Duplicate/template leakage investigation,Done,Exact duplicate queries remaining=0; random-split test template overlap=28.13%; five-seed group-aware results saved in group_multiseed_metrics.csv.
 Repeat the full process across multiple seeds,Done,"Seeds=[42, 43, 44, 45, 46]; mean/std and 95% CIs saved in multiseed_summary.csv."
+Template-grouped evaluation across five seeds,Done,GroupShuffleSplit by normalized templates with zero template overlap; mean/std for every metric saved in group_multiseed_summary.csv.
 External or cross-dataset test,Not available,No external dataset was provided; generalization claims require one.
 Text baselines with the same split,Done,Logistic Regression and Linear SVM on word and char(3-5) TF-IDF were evaluated per seed in multiseed_metrics.csv.
 False positives/negatives by attack family,Done (proxy),No ground-truth family labels exist; heuristic keyword families and examples are saved in attack_family_fn.csv and fp_fn_examples.csv.
 Environment and runtime details,Done,environment.json and sklearn_versions.txt saved.
+BGWO convergence and feature-stability figures,Done,bgwo_convergence_curve.png and bgwo_feature_stability.png saved at 300 DPI.
+Time and space complexity analysis,Done,Big-O analysis included in Section 10.
+McNemar's test (baseline RF vs RF + BGWO),Done,mcnemar_results.csv contains discordant counts and p-values.
 Treat the test set as consumed; no tuning on test,Done,"TF-IDF, BGWO, and top-13 ranking use fit/validation data only; test partitions are used for final scoring."
 No production-readiness claim,Note,Results are experimental; parameterized queries remain the primary defense.
 Top-13 ranking computed on training/fit data only,Done,ranking_rf is fitted on X_fit/y_fit; test labels are never used.
