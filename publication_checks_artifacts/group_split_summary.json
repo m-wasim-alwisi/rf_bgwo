@@ -1,0 +1,40 @@
+{
+  "group_train_rows": 16123,
+  "group_test_rows": 6736,
+  "fit_rows": 13033,
+  "validation_rows": 3090,
+  "template_overlap_train_test": 0,
+  "template_overlap_fit_val": 0,
+  "bgwo_selected_features": 252,
+  "bgwo_best_fitness": 0.005242263349514614,
+  "top13_features": [
+    "select",
+    "select from",
+    "union",
+    "and",
+    "where",
+    "case when",
+    "1 where",
+    "1 select",
+    "1 or",
+    "delete from",
+    "0",
+    "1 as",
+    "s from"
+  ],
+  "top13_importances": [
+    0.1989059357188326,
+    0.09177979170933158,
+    0.06513873263421284,
+    0.05575116093987357,
+    0.04145570138141351,
+    0.02680099406590463,
+    0.025341447031249287,
+    0.02531435414803342,
+    0.025019179522045135,
+    0.020553913363056446,
+    0.017615496858913518,
+    0.017178223040693365,
+    0.015994298920578628
+  ]
+}

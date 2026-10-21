@@ -1,0 +1,46 @@
+
+System:
+    python: 3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]
+executable: C:\Users\user\AppData\Local\Programs\Python\Python313\python.exe
+   machine: Windows-11-10.0.26200-SP0
+
+Python dependencies:
+      sklearn: 1.9.1
+          pip: 26.2.1
+   setuptools: 84.0.0
+        numpy: 2.5.3
+        scipy: 1.18.1
+       Cython: None
+       pandas: 2.3.3
+   matplotlib: 3.11.2
+       joblib: 1.6.0
+threadpoolctl: 3.7.0
+     narwhals: 2.26.0
+
+Built with OpenMP: True
+
+threadpoolctl info:
+       user_api: blas
+   internal_api: openblas
+    num_threads: 8
+         prefix: libscipy_openblas
+       filepath: C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy.libs\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll
+        version: 0.3.34.106.0
+threading_layer: pthreads
+   architecture: Haswell
+
+       user_api: blas
+   internal_api: openblas
+    num_threads: 8
+         prefix: libscipy_openblas
+       filepath: C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy.libs\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll
+        version: 0.3.31.dev
+threading_layer: pthreads
+   architecture: Haswell
+
+       user_api: openmp
+   internal_api: openmp
+    num_threads: 8
+         prefix: vcomp
+       filepath: C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\.libs\vcomp140.dll
+        version: None

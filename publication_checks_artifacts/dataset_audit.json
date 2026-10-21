@@ -1,0 +1,21 @@
+{
+  "raw_rows": 22916,
+  "raw_class_counts": {
+    "0": 11584,
+    "1": 11332
+  },
+  "rows_after_dropna": 22916,
+  "rows_after_empty_query_removal": 22916,
+  "rows_after_duplicate_removal": 22859,
+  "duplicates_removed": 57,
+  "final_class_counts": {
+    "0": 11581,
+    "1": 11278
+  },
+  "exact_duplicate_queries_remaining": 0,
+  "query_label_conflicts": 0,
+  "label_mapping": {
+    "0": "Benign",
+    "1": "SQL injection"
+  }
+}

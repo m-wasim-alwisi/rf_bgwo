@@ -1,0 +1,8 @@
+attack_family_proxy,injections,top13_missed,top13_fn_rate_pct,baseline_missed,baseline_fn_rate_pct
+boolean/tautology,1353,0,0.0,0,0.0
+union-based,661,0,0.0,0,0.0
+time-based,499,3,0.6012024048096193,0,0.0
+other,391,4,1.0230179028132993,4,1.0230179028132993
+comment/obfuscation,311,3,0.9646302250803859,4,1.2861736334405145
+error/out-of-band,165,2,1.2121212121212122,0,0.0
+stacked,4,0,0.0,0,0.0

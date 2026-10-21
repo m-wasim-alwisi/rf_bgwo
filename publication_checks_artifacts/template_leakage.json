@@ -1,0 +1,15 @@
+{
+  "unique_queries": 22859,
+  "unique_templates": 17176,
+  "templates_with_multiple_rows": 1162,
+  "max_template_group_size": 521,
+  "median_template_group_size": 1.0,
+  "rows_in_multi_row_templates": 6845,
+  "random_split_test_rows": 6858,
+  "random_split_test_rows_with_template_in_train": 1929,
+  "random_split_test_template_overlap_pct": 28.127734033245844,
+  "random_split_test_injections_with_template_in_train_pct": 52.86643026004728,
+  "random_split_test_benign_with_template_in_train_pct": 4.029936672423719,
+  "exact_query_overlap_between_random_splits": 0,
+  "templates_in_both_random_splits": 786
+}
