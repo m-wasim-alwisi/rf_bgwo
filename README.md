@@ -236,7 +236,3 @@ A full Big-O discussion is included in Section 10 of `RF_BGWO_Publication_Checks
 - **Test set consumption:** the test data is used for final evaluation only; do not tune on it.
 - **Not production-ready:** a classifier does not replace parameterized queries, prepared statements, least privilege, and secure application design.
 - **Dataset redistribution:** verify the original dataset's license before publishing the included CSV.
-
-## License
-
-No license file is included. Add an explicit license before publishing if you intend to permit reuse.
